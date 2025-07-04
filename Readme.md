@@ -1,4 +1,4 @@
-Indigo App Store Reviews Scraper
+# Indigo App Store Reviews Scraper
 
 This project scrapes user reviews for the Indigo Airlines app from the Apple App Store across multiple countries, processes the data, and exports it to a CSV file for further analysis.
 
