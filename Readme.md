@@ -1,6 +1,6 @@
-# Indigo App Store Reviews Scraper
+App Store Reviews Scraper
 
-This project scrapes user reviews for the Indigo Airlines app from the Apple App Store across multiple countries, processes the data, and exports it to a CSV file for further analysis.
+This project scrapes user reviews for the app from the Apple App Store across multiple countries, processes the data, and exports it to a CSV file for further analysis.
 
 ## Features
 
@@ -8,7 +8,7 @@ This project scrapes user reviews for the Indigo Airlines app from the Apple App
 - Supports multiple country codes (e.g., US, IN, GB, CA, AU, AE, DE, FR, IT, SG).
 - Cleans and filters review data to remove sensitive customer information.
 - Converts the reviews into a structured pandas DataFrame.
-- Exports the cleaned data to indigo_reviews.csv.
+- Exports the cleaned data to appstore_reviews.csv.
 
 ## Requirements
 
@@ -32,14 +32,14 @@ pip install requests pandas tqdm numpy app-store-web-scraper
 
 1. Open and run the Jupyter notebook scrape_app_store_reivews.ipynb.
 2. The notebook will:
-   - Fetch reviews for the Indigo app from the App Store for each country in the list.
+   - Fetch reviews for the app from the App Store for each country in the list.
    - Remove sensitive fields (`user_name`, `id`).
    - Convert the reviews to a pandas DataFrame.
-   - Save the DataFrame to indigo_reviews.csv.
+   - Save the DataFrame to appstore_reviews.csv.
 
 ## Output
 
-- The final output is a CSV file: indigo_reviews.csv, containing the following columns:
+- The final output is a CSV file: appstore_reviews.csv, containing the following columns:
   - `content`
   - `score`
   - `at`
